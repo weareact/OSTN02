@@ -12,6 +12,9 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- We're building 'WITH' and 'FOR' Java 8 by default now. -->
+        <jdkSourceVersion>1.8</jdkSourceVersion>
+        <jdkTargetVersion>1.8</jdkTargetVersion>
     </properties>
 
     <scm>
