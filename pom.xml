@@ -7,7 +7,14 @@
     <packaging>jar</packaging>
 
     <name>ostn02</name>
-    <url>http://maven.apache.org</url>
+    <url>https://confluence.weareact.com/display/AN/2015/03/27/Postcode+geocoding</url>
+    <issueManagement>
+        <url>https://jira.weareact.com/browse/OSTN</url>
+    </issueManagement>
+    <ciManagement>
+        <system>Jenkins</system>
+        <url>http://ci3-jenkins.card.co.uk:8080/job/ostn02/</url>
+    </ciManagement>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
