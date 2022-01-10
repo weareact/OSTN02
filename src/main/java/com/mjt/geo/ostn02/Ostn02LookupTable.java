@@ -19,7 +19,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * mapping agency logos are found in the style guides available on the web 
  * site.</blockquote>
  * 
- * <img src="../../../../../resources/ostn005.jpg" />
+ * <img src="../../../../../resources/ostn005.jpg"></img>
  * 
  * @author Michael Tandy
  */
