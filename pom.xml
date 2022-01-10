@@ -5,6 +5,20 @@
   <groupId>com.mjt.geo</groupId>
   <artifactId>ostn02</artifactId>
   <version>1.0-SNAPSHOT</version>
+
+  <distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>ACT nexus</name>
+      <url>https://corp-nxs01.card.co.uk/repository/maven-releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>ACT nexus</name>
+      <url>https://corp-nxs01.card.co.uk/repository/maven-snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <packaging>jar</packaging>
 
   <name>ostn02</name>
