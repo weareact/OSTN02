@@ -38,9 +38,9 @@ public class Ostn02LookupTable {
     /**
      * Get shift from ETRS89 to OSGB36. We find the four corners of the 1km
      * square the easting/northing is in, and perform bilinear interpolation.
-     * @param easting
-     * @param northing
-     * @return 
+     * @param easting the easting value to use
+     * @param northing the northing value to use
+     * @return the resulting shift
      */
     public static Shift getShiftFrom(float easting, float northing) {
         float e = easting/1000;
@@ -77,9 +77,9 @@ public class Ostn02LookupTable {
      * Get shift from OSGB36 to ETRS89. Iteratively performs 
      * <code>getShiftFrom</code> to find an ETRS89 starting point that would 
      * shift to this OSGB36 point.
-     * @param kmEast
-     * @param kmNorth
-     * @return 
+     * @param easting the easting value to use
+     * @param northing the northing value to use
+     * @return the resulting shift
      */
     public static Shift getShiftTo(final float easting, final float northing) {
         float iterEast = easting;
